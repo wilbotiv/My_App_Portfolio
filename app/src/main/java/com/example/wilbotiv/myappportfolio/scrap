@@ -1,0 +1,42 @@
+public void sendToastMedia(View view){
+        Context context = getApplicationContext();
+        CharSequence text = "This button will launch my Spotify app!";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
+    public void sendToastScores(View view){
+        Context context = getApplicationContext();
+        CharSequence text = "This button will launch my Scores app!";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
+    public void sendToastLibrary(View view){
+        Context context = getApplicationContext();
+        CharSequence text = "This button will launch my Library app!";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
+    public void sendToastBuild(View view){
+        Context context = getApplicationContext();
+        CharSequence text = "This button will launch my Build It Bigger app!";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
+    public void sendToastXYZ(View view){
+        Context context = getApplicationContext();
+        CharSequence text = "This button will launch my XYZ Reader app!";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
+    public void sendToastCapstone(View view){
+        Context context = getApplicationContext();
+        CharSequence text = "This button will launch my Capstone app!";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
